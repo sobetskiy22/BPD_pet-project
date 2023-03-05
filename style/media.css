@@ -1,0 +1,11 @@
+@media screen and (max-width: 991px) {
+    .header_burger {
+        display: none;
+    }
+    .header_menu {
+        display: none;
+    }
+    .header_burger {
+        display: flex;
+    }
+}

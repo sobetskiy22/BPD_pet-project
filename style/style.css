@@ -1,0 +1,1144 @@
+@import "/BPD/style/nullstyle.css";
+@import "/BPD/style/media.css";
+
+:root {
+    --container-width: 1220px;
+    --font-letter-spacing: 0.2em;
+}
+
+h2 {}
+
+h3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.01em;
+    color: #333333;
+}
+
+h4 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #333333;
+}
+
+h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    color: #666666;
+    letter-spacing: 0.01em;
+
+}
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #666666;
+}
+
+
+
+/* -------------------------------------------------- */
+
+._container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+}
+
+/* -------------------------------------------------- */
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* -------------------------------------------------- */
+._fon {
+    position: relative;
+}
+
+._fon img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+
+}
+
+/*------------------------------------------------------Header start-------------------------------------------------*/
+
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    border-bottom: 1px solid #DCE6FF;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100.8px;
+    padding: 0 15px 0 15px;
+}
+
+.logo_bpd {
+    height: 30px;
+    width: 112px;
+}
+
+.header_burger {
+    display: none;
+}
+
+.menu_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu_item {
+    font-family: 'Ubuntu', normal;
+    flex-direction: row;
+    color: #DCE6FF;
+    margin-left: 46px;
+}
+
+.menu_link {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #DCE6FF;
+}
+
+.menu_link:hover {
+    color: #000000;
+    transition: all .25s ease;
+}
+
+.btn-header-registre_now {
+    width: 171px;
+    height: 46px;
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    font-family: 'Poppins', normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #272727;
+}
+
+/* Header end */
+
+/*------------------------------------------------------Main start-------------------------------------------------*/
+
+.main {
+    flex: 1 1 auto;
+
+}
+
+.main-block {
+    position: relative;
+}
+
+.container_main {
+    padding: 193px 926px 457px 0px;
+}
+
+.main-block_info {
+    position: relative;
+    z-index: 2;
+}
+
+.main-block_info h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    width: 599px;
+    height: 210px;
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+.main-block_info h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 570px;
+    height: 83px;
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+.main-block_subtitle {}
+
+/*------------Search-Group---------------------*/
+.search-group__main {
+    position: relative;
+    z-index: 2;
+    margin-top: 82px;
+}
+
+.three-Rectangle {
+    max-width: 336px;
+    height: 37px;
+    position: relative;
+    z-index: 3;
+
+}
+
+.search-group__main {}
+
+.three-Rectangle {}
+
+.link-rectangle {
+    display: flex;
+}
+
+.link-rectangle li {
+    display: block;
+    text-align: center;
+    width: 112px;
+    height: 37px;
+    margin-right: 5px;
+    padding-top: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 6px 6px 0px 0px;
+}
+
+.link-rectangle li:first-child:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.link-rectangle li:first-child:hover a:first-child {
+    color: #000000;
+}
+
+.link-rectangle li:nth-child(2):hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.link-rectangle li:nth-child(2):hover a {
+    color: #000000;
+}
+
+.link-rectangle li:last-child:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.link-rectangle a {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* -------------------------Search----------------- */
+.propiss_400 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999;
+}
+
+.search-sell {
+    position: relative;
+    z-index: 2;
+    height: 100px;
+    width: 930px;
+    background: #FFFFFF;
+    border-radius: 0px 10px 10px 10px;
+    padding: 13px;
+}
+
+.search-sell_block {
+    display: flex;
+}
+
+/* --------------------- */
+._select {
+    border: 1px solid #E7F0FD;
+    border-radius: 5px;
+    height: 41px;
+}
+
+.property_block {
+    position: relative;
+    width: 237px;
+}
+
+.home-type {
+    width: 192px;
+}
+
+.renge-type {
+    width: 150px;
+}
+
+.location-type {
+    width: 222px;
+}
+
+.solid {
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    width: 59px;
+    height: 0px;
+    border: 1px solid #DFDFDF;
+    transform: rotate(90deg);
+}
+
+/* ---------Search-botton------------- */
+.block_botton-search {
+    margin: 15px 0px 0px 20px;
+}
+
+.btn-search-sell {
+    width: 150px;
+    height: 50px;
+    background: #1266E3;
+    border-radius: 9px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.btn-search-sell:hover {
+    box-shadow: 0px 20px 40px -10px rgba(24, 33, 255, 0.6);
+    background: #1266e35e;
+}
+
+/*------------Search-Group-end--------------------*/
+.img_cover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.gradient:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(271.04deg, rgba(49, 112, 255, 0) 0.04%, #3170FF 99.24%);
+}
+
+/*-----------------------Section-house_info------------------*/
+
+.section-home {
+    padding: 150px 0px 120px;
+}
+
+.section-home_info {
+    display: flex;
+    width: 1120px;
+    height: 730px;
+}
+
+.img-house {
+    margin-right: 75px;
+    padding-left: 15px;
+}
+
+.title_house_info {
+    font-size: 44px;
+    line-height: 59px;
+}
+
+/*-----------info---------*/
+.main-helping_people {
+    margin-top: 47px;
+}
+
+.main-helping_people {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.single_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.single_item img {
+    padding: 30px;
+    height: 116px;
+    width: 116px;
+    border-radius: 50%;
+}
+
+.residency-img img {
+    background: #E7F0FD;
+}
+
+.block-info_residency {
+    width: 75%;
+}
+
+/* __________________ */
+
+.thousands-img img {
+    background: #4288F0;
+}
+
+.block-info_thousands {
+    width: 75%;
+}
+
+/* __________________________ */
+.transparency-img img {
+    background: #E7F0FD;
+
+}
+
+.block-info_transparency {
+    width: 75%;
+}
+
+/*-----------------------Section-house_info--END----------------*/
+
+/*-----------------------Section-cards--start----------------*/
+.why_Choose_us {
+    background: #F8F9FB;
+    padding: 126px 0px 120px;
+}
+
+.title_and_subtitle-why_Choose_us {
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.block-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 307px;
+}
+
+._cards {
+    width: 295px;
+    height: 307px;
+    padding: 30px 12px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+._cards:hover {
+    border: 0.3px solid #1266E3;
+    box-shadow: 3px 7px 50px rgba(4, 21, 47, 0.15);
+    border-radius: 15px;
+}
+
+.backgraund_circle {
+    margin-left: 30%;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+._cards:hover .backgraund_circle {
+    background: #1266E3;
+}
+
+._cards:hover .backgraund_circle svg path {
+    fill: #FFFFFF
+}
+
+.backgraund_circle {
+    padding: 35px;
+}
+
+.block-cards ._cards h4 {
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.block-cards ._cards p {
+    text-align: center;
+}
+
+/*-----------------------Section-cards--end----------------*/
+/*-------------------section-featured-property start ---------------*/
+.block_featured-property {
+    padding: 120px 0px 130px 0px;
+}
+
+.title_feature_property {
+    text-align: center;
+}
+
+.title_feature_property h3 {
+    padding-bottom: 23px;
+}
+
+.title_feature_property p {
+    padding-bottom: 27px;
+}
+
+._img-cards {
+    width: 360px;
+    height: 540px;
+}
+
+.for-sell {
+    position: absolute;
+    z-index: 2;
+    top: 25px;
+    left: 268px;
+    width: 99px;
+    height: 32px;
+    background: #2A79EE;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.for-sell div {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.bottow_commercial {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 4px 20px;
+    background: rgba(250, 91, 62, 0.6);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.bottow_commercial p {
+    color: #FFFFFF;
+    width: fit-content;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/* -------------------- */
+.card_row {
+    padding-top: 50px;
+}
+
+._card-box {
+    width: 360px;
+    height: 540px;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+._card-box:hover {
+    border: 1px solid #1266E3;
+    box-shadow: 3px 7px 50px rgba(4, 21, 47, 0.15);
+    border-radius: 5px;
+}
+
+._card-box:hover::after {
+    content: url(/img/section_searchSell/like.svg);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+
+    z-index: 2;
+}
+
+.house-img_one {
+    position: relative;
+    z-index: 1;
+    width: 340px;
+    height: 325px;
+}
+
+.first-item {
+    position: absolute;
+    z-index: 2;
+    top: 25px;
+    left: 255px;
+    width: 99px;
+    height: 32px;
+    background: #2A79EE;
+    border-radius: 5px 0px 0px 5px
+}
+
+.first-item p {
+    text-align: center;
+    position: relative;
+    padding: 4px 10px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.first-item p::after {
+    content: url("/img/section_searchSell/Vector\ 347span.png");
+    position: absolute;
+    top: 28px;
+    right: 0px;
+}
+
+.second-item {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    width: 90%;
+    left: 5%;
+    background: rgba(250, 91, 62, 0.6);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.second-item p {
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    text-align: center;
+}
+
+.block-descrption {
+    padding: 30px 13px 25px 13px;
+}
+
+.description-house h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.description-house p {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 18px;
+}
+
+.description-house p::before {
+    content: url("/img/section_searchSell/mark.png");
+    position: absolute;
+    left: 0px;
+}
+
+.price {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: #1266E3;
+}
+
+.boottom-description-house {
+    padding-top: 10px;
+}
+
+.boottom-description-house div img {
+    padding-right: 5px;
+}
+
+.boottom-description-house div {
+    display: flex;
+    align-items: center;
+}
+
+.btn-container {
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: 50px 0 0;
+
+}
+
+.btn-container button {
+    height: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #2A79EE;
+    border-radius: 10px;
+    margin-top: 50px;
+
+    width: 300px;
+    margin: 0 auto;
+    color: #2A79EE;
+}
+
+/*-------------------section-featured-property end ---------------*/
+/*------------------- section-Form of real estate start---------------*/
+
+.form-of-real-estate {
+    height: 1205px;
+    /* background: cover; */
+    background-image: url("../img/form-section.jpg");
+}
+
+.block-section {
+    padding-top: 120px;
+}
+
+.block-section_contents {}
+
+.block-form {
+    width: 455px;
+    height: 965px;
+    background-color: #FFFFFF;
+    border: 1px solid #2A79EE;
+    border-radius: 10px;
+}
+
+.block-info-form h3 {
+    color: #FFFFFF;
+}
+
+.block-form {
+    padding: 30px 18px 30px 18px;
+}
+
+.form {
+    padding: 0;
+}
+
+/* --------- */
+._retreat {
+    padding-bottom: 5px;
+}
+
+.block-fieldset legend {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.block-fieldset label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #4C4C4C;
+}
+
+.block-fieldset p {
+    line-height: 24px;
+    padding-bottom: 20px;
+    width: 397px;
+    height: 48px;
+}
+
+/* .form-wrraper {
+    padding-bottom: 20px;
+} */
+
+.form-label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #4C4C4C;
+}
+
+.form-check .form-check-label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #808080;
+}
+
+.form-select {
+    max-width: 396px;
+    height: 50px;
+}
+
+.form-control {
+    max-width: 396px;
+    height: 50px;
+}
+
+.label-check-agreement {
+    padding-bottom: 5px;
+}
+
+.btn-primary {
+    width: 396px;
+    height: 50px;
+    background: #2A79EE;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*------------------- section-Form of real estate end---------------*/
+
+/*------------------- section- residenttial-and-commerical start---------------*/
+.block_residenttial-and-commerical {
+    padding: 120px 0 120px;
+    ;
+}
+
+.block-info_residenttial-and-commerical {
+    max-width: 100%;
+    padding: 50px 0 50px 0;
+}
+
+._info-img {
+    max-width: 75%;
+    padding-bottom: 30px;
+}
+
+._info-img h4 {
+    color: #072A5F;
+}
+
+.residential-info {
+    position: relative;
+    z-index: 2;
+}
+
+.residential-info::after {
+    content: url(/img/Vector.svg);
+    position: absolute;
+    z-index: 1;
+    transform: rotate(180deg);
+    right: 10%;
+    top: 100%;
+}
+
+.commercial-info {
+    position: relative;
+    z-index: 2;
+    margin-left: 25%;
+}
+
+.commercial-info::after {
+    content: url(/img/Vector.svg);
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 2%;
+}
+
+.img_room {
+    position: relative;
+}
+
+.img-addition-info_apparitment {
+    top: 30px;
+}
+
+.img-addition-info_office {
+    bottom: 30px;
+
+}
+
+._text-addition {
+    padding: 12px;
+    background: #072A5F;
+    opacity: 0.7;
+    max-width: 100%;
+    width: 200px;
+}
+
+._img-addition:first-child {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+._text-addition:last-child {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E7F0FD;
+
+}
+
+/*------------------- section- residenttial-and-commerical end---------------*/
+/*------------------- section- choose-use_two start---------------*/
+.choose-use_two {
+    background: #F5FAFE;
+}
+
+.block_content-choose-use_two {
+    width: 1920px;
+    height: 505px;
+    padding: 100px 0px 100px 0px;
+}
+
+.block_title-choose-use_two {
+    padding: 0px 50px 20px 50px;
+}
+
+
+.block_title-choose-use_two p {
+    text-transform: capitalize;
+    max-width: 100%;
+    width: 869px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.card-choose {
+    max-width: 172px;
+    height: 149px;
+    text-align: center;
+}
+
+.img-choose-use_two {
+    padding-bottom: 29px;
+}
+
+.card-choose .numbers {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #191919;
+}
+
+.card-choose span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #666666;
+}
+
+/*------------------- section- choose-use_two end---------------*/
+/*------------------- section- customer-testimonials stard---------------*/
+._block-customer {
+    padding-bottom: 100px;
+}
+
+.customer-testimonials {
+    padding-top: 120px;
+}
+
+.wrapper-block-testimonials {}
+
+/* --titele---- */
+.block-title-testimonials {
+    max-width: 769px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* --slider---- */
+.block-slider-testimonials {}
+
+.wrapper-slider {}
+
+/* --three-steps---- */
+.block-three-steps {}
+
+.items-three-steps {
+    width: 100%;
+    height: 300px;
+    padding: 60px 97px;
+
+    background: #1266E3;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+
+.content-three-steps {
+    max-width: 567px;
+    height: 119px;
+
+    color: #FFFFFF;
+}
+
+.content-three-steps h3 {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.content-three-steps p {
+    color: #FFFFFF
+}
+
+.block-three-steps_botton-register {
+    max-width: 256px;
+    height: 180px;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btn-registre_now {
+    width: 140px;
+    height: 46px;
+    background: #1266E3;
+    border-radius: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.btn-registre_now:hover {
+    box-shadow: 0px 20px 40px -10px rgba(24, 33, 255, 0.6);
+}
+
+/* --three-companies---- */
+.block-companies {
+    padding-bottom: 0px;
+}
+
+
+/*------------------- section- customer-testimonials end---------------*/
+/*------------------- footer start---------------*/
+.footer {
+    background: #0D263C;
+}
+
+.footer-section {
+    padding: 80px 0 27px 0;
+    height: 443px;
+}
+
+.footer-section h4 {
+    color: #E7F0FD;
+    margin-bottom: 30px;
+}
+
+.footer-section li a {
+    padding-bottom: 5px;
+    color: #E7F0FD;
+    text-decoration: underline;
+    line-height: 36px;
+}
+
+.footer-section .mail {
+    color: #E7F0FD;
+    text-decoration: underline;
+    line-height: 36px;
+}
+
+.block-contact {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.block-contact div {
+    color: #E7F0FD;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.block-contact div img {
+    margin-right: 15px;
+}
+
+.social-block {
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-nav_discover {
+    border-right: 1px solid #425879;
+}
+
+.footer-nav_category {
+    border-right: 1px solid #425879;
+}
+
+.footer-section-bottom {
+    background: #03182C;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section-bottom span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    color: #E0E0E0;
+}
+
+/*------------------- footer end---------------*/
